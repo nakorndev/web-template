@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "./api"
+    },
+    {
+      "path": "./web"
+    }
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "compounds": [
+      {
+        "name": "Debug",
+        "configurations": ["API", "Nuxt", "Chrome"]
+      }
+    ]
+  }
+}
